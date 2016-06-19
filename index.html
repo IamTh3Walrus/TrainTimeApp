@@ -21,8 +21,8 @@
   		<div class="panel-heading">Current Train Schedule</div>
   		<div class="panel-body">
 
-  			<table class="table" id="trainTable">
-				<table class="table">
+  			<table class="table">
+				<table class="table"  id="trainTable">
 				    <thead>
 				      <tr>
 				        <th>Train Name</th>
@@ -33,17 +33,7 @@
 				      </tr>
 				    </thead>
 				    <tbody>
-				      <tr>
-				        <td></td>
-				      </tr>
 
-				      <tr>
-				        <td></td>
-				       </tr>
-
-				      <tr>
-				        <td></td>
-				       </tr>
 
 				    </tbody>
 				  	</table>
@@ -61,23 +51,23 @@
     	<form>
 
 		 	 <div class="form-group">
-		    	<label for="exampleInputEmail1">Train Time</label>
+		    	<label for="exampleInputEmail1">Train Name</label>
 		    	<input type="email" class="form-control" id="trainTime" placeholder="">
 		  	</div>
 
 		  	<div class="form-group">
 		    	<label for="text">Destination</label>
-		 		 <input type="password" class="form-control" id="destinationLoc" placeholder="">
+		 		 <input type="text" class="form-control" id="destinationLoc" placeholder="">
 		  	</div>
 
 			  <div class="form-group">
 			   		 <label for="text">First Train Time (HHmm - Military Time) </label>
-			    	<input type="password" class="form-control" id="firstTrain" placeholder="">
+			    	<input type="time" class="form-control" id="firstTrain" placeholder="">
 			  </div>
 
 			  <div class="form-group">
 			    	<label for="text">Frequency (min)</label>
-			   		 <input type="password" class="form-control" id="frequency1" placeholder="">
+			   		 <input type="time" class="form-control" id="frequency1" placeholder="">
 			  </div>
 
    			<button type="submit" id="submitButton" class="btn btn-primary">Submit</button>
